@@ -1,0 +1,376 @@
+{
+  "CVM": [{
+      "environment": "CVM A - Billing",
+      "date": "2018-02-10",
+      "release": "5.21-SNAPSHOT",
+      "subTableRows": [{
+          "server": "Server A5",
+          "timestamp": "2016-11-02",
+          "release": "2.21-SNAPSHOT"
+        },
+
+        {
+          "server": "Server A3",
+          "timestamp": "2015-07-16",
+          "release": "2.21-SNAPSHOT"
+        },
+        {
+          "server": "Server A7",
+          "timestamp": "No Data Found",
+          "release": "No Data Found"
+        }
+      ]
+
+    },
+
+    {
+      "environment": "CVM A - Workflow",
+      "date": "2018-01-18",
+      "release": "5.21-SNAPSHOT",
+      "subTableRows": [{
+          "server": "Server A4",
+          "timestamp": "2017-10-15",
+          "release": "2.21-SNAPSHOT"
+        },
+
+        {
+          "server": "Server A5",
+          "timestamp": "2017-10-16",
+          "release": "2.21-SNAPSHOT"
+        },
+
+        {
+          "server": "Server A6",
+          "timestamp": "No Data Found",
+          "release": "No Data Found"
+        }
+      ]
+
+    },
+
+    {
+      "environment": "CVM B - Batch",
+      "date": "2018-02-05",
+      "release": "5.21-SNAPSHOT",
+      "subTableRows": [{
+          "server": "Server B1",
+          "timestamp": "2017-10-15",
+          "release": "2.21-SNAPSHOT"
+        },
+
+        {
+          "server": "Server B2",
+          "timestamp": "2017-10-16",
+          "release": "2.21-SNAPSHOT"
+        },
+
+        {
+          "server": "Server B3",
+          "timestamp": "No Data Found",
+          "release": "No Data Found"
+        }
+      ]
+
+    },
+
+    {
+      "environment": "CVM B - Automation",
+      "date": "2018-02-19",
+      "release": "'5.21-SNAPSHOT'",
+      "subTableRows": [{
+          "server": "Server B4",
+          "timestamp": "2017-10-15",
+          "release": "2.21-SNAPSHOT"
+        },
+
+        {
+          "server": "Server B5",
+          "timestamp": "2017-10-16",
+          "release": "2.21-SNAPSHOT"
+        },
+
+        {
+          "server": "Server B6",
+          "timestamp": "No Data Found",
+          "release": "No Data Found"
+        }
+      ]
+
+    },
+
+    {
+      "environment": "CVM C - Workflow",
+      "date": "2018-01-14",
+      "release": "5.21-SNAPSHOT",
+      "subTableRows": [{
+          "server": "Server C1",
+          "timestamp": "2017-10-15",
+          "release": "2.21-SNAPSHOT"
+        },
+
+        {
+          "server": "Server C2",
+          "timestamp": "2017-10-16",
+          "release": "2.21-SNAPSHOT"
+        },
+
+        {
+          "server": "Server C3",
+          "timestamp": "No Data Found",
+          "release": "No Data Found"
+        }
+      ]
+
+    }
+  ],
+
+  "VOD": [{
+      "environment": "VOD A - Workflow",
+      "date": "2018-02-10",
+      "release": "5.21-SNAPSHOT",
+      "subTableRows": [{
+          "server": "Server R2",
+          "timestamp": "2016-01-12",
+          "release": "2.21-SNAPSHOT"
+        },
+
+        {
+          "server": "Server R5",
+          "timestamp": "2015-12-06",
+          "release": "2.21-SNAPSHOT"
+        },
+        {
+          "server": "Server R9",
+          "timestamp": "No Data Found",
+          "release": "No Data Found"
+        }
+      ]
+
+    },
+
+    {
+      "environment": "VOD A - Billing",
+      "date": "2018-01-31",
+      "release": "5.21-SNAPSHOT",
+      "subTableRows": [{
+          "server": "Server C2",
+          "timestamp": "2018-05-25",
+          "release": "2.21-SNAPSHOT"
+        },
+
+        {
+          "server": "Server C5",
+          "timestamp": "2017-12-06",
+          "release": "2.21-SNAPSHOT"
+        },
+
+        {
+          "server": "Server C9",
+          "timestamp": "No Data Found",
+          "release": "No Data Found"
+        }
+      ]
+
+    },
+
+    {
+      "environment": "VOD B - Automation",
+      "date": "2018-01-05",
+      "release": "5.21-SNAPSHOT",
+      "subTableRows": [{
+          "server": "Server F4",
+          "timestamp": "2014-11-11",
+          "release": "2.21-SNAPSHOT"
+        },
+
+        {
+          "server": "Server G2",
+          "timestamp": "2018-01-31",
+          "release": "2.21-SNAPSHOT"
+        },
+
+        {
+          "server": "Server B3",
+          "timestamp": "No Data Found",
+          "release": "No Data Found"
+        }
+      ]
+
+    },
+
+    {
+      "environment": "VOD B - Billing",
+      "date": "2018-02-19",
+      "release": "5.21-SNAPSHOT",
+      "subTableRows": [{
+          "server": "Server B4",
+          "timestamp": "2017-10-15",
+          "release": "2.21-SNAPSHOT"
+        },
+
+        {
+          "server": "Server B5",
+          "timestamp": "2017-10-16",
+          "release": "2.21-SNAPSHOT"
+        },
+
+        {
+          "server": "Server B6",
+          "timestamp": "No Data Found",
+          "release": "No Data Found"
+        }
+      ]
+
+    }
+  ],
+
+
+  "CG": [{
+      "environment": "CG A - Batch",
+      "date": "2018-02-10",
+      "release": "5.21-SNAPSHOT",
+      "subTableRows": [{
+          "server": "Server A5",
+          "timestamp": "2016-11-02",
+          "release": "2.21-SNAPSHOT"
+        },
+
+        {
+          "server": "Server A3",
+          "timestamp": "2015-07-16",
+          "release": "2.21-SNAPSHOT"
+        },
+        {
+          "server": "Server A7",
+          "timestamp": "No Data Found",
+          "release": "No Data Found"
+        }
+      ]
+
+    },
+
+    {
+      "environment": "CG A - Automation",
+      "date": "2018-01-18",
+      "release": "5.21-SNAPSHOT",
+      "subTableRows": [{
+          "server": "Server A4",
+          "timestamp": "2017-10-15",
+          "release": "2.21-SNAPSHOT"
+        },
+
+        {
+          "server": "Server A5",
+          "timestamp": "2017-10-16",
+          "release": "2.21-SNAPSHOT"
+        },
+
+        {
+          "server": "Server A6",
+          "timestamp": "No Data Found",
+          "release": "No Data Found"
+        }
+      ]
+
+    },
+
+    {
+      "environment": "CG B - Billing",
+      "date": "2018-02-05",
+      "release": "5.21-SNAPSHOT",
+      "subTableRows": [{
+          "server": "Server B1",
+          "timestamp": "2017-10-31",
+          "release": "2.21-SNAPSHOT"
+        },
+
+        {
+          "server": "Server B2",
+          "timestamp": "2017-11-24",
+          "release": "2.21-SNAPSHOT"
+        },
+
+        {
+          "server": "Server B3",
+          "timestamp": "No Data Found",
+          "release": "No Data Found"
+        }
+      ]
+
+    }
+  ],
+
+  "IMS": [{
+      "environment": "IMS A - Billing",
+      "date": "2018-02-10",
+      "release": "5.21-SNAPSHOT",
+      "subTableRows": [{
+          "server": "Server G5",
+          "timestamp": "2017-01-12",
+          "release": "2.21-SNAPSHOT"
+        },
+
+        {
+          "server": "Server G3",
+          "timestamp": "2015-10-15",
+          "release": "2.21-SNAPSHOT"
+        },
+        {
+          "server": "Server G2",
+          "timestamp": "No Data Found",
+          "release": "No Data Found"
+        }
+      ]
+
+    },
+
+    {
+      "environment": "IMS A - Automation",
+      "date": "2018-01-18",
+      "release": "5.21-SNAPSHOT",
+      "subTableRows": [{
+          "server": "Server Z9",
+          "timestamp": "2017-10-15",
+          "release": "2.21-SNAPSHOT"
+        },
+
+        {
+          "server": "Server X8",
+          "timestamp": "2017-10-16",
+          "release": "2.21-SNAPSHOT"
+        },
+
+        {
+          "server": "Server G3",
+          "timestamp": "No Data Found",
+          "release": "No Data Found"
+        }
+      ]
+
+    }
+  ],
+
+  "SAIL": [{
+    "environment": "SAIL D - Workflow",
+    "date": "2015-05-02",
+    "release": "5.21-SNAPSHOT",
+    "subTableRows": [{
+        "server": "Server A2",
+        "timestamp": "2018-01-17",
+        "release": "2.21-SNAPSHOT"
+      },
+
+      {
+        "server": "Server A9",
+        "timestamp": "2015-12-14",
+        "release": "2.21-SNAPSHOT"
+      },
+      {
+        "server": "Server A5",
+        "timestamp": "No Data Found",
+        "release": "No Data Found"
+      }
+    ]
+
+  }]
+}

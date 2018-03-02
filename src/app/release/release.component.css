@@ -1,0 +1,155 @@
+.timestamp {
+  text-align: right;
+  font-weight: bold;
+  font-style: normal;
+  padding-bottom: 10px;
+}
+
+.tableScroll{
+  font-size: 16px;
+}
+
+
+.table-wrapper-2 {
+  -ms-overflow-style: -ms-autohiding-scrollbar;
+}
+
+/* Base CSS*/
+.dashed-border {
+  border-bottom: 1px dashed #000;
+  margin-bottom: 10px;
+}
+
+.result .ui-g-6 {
+  border: 1px solid #ccc;
+  margin-top: 10px;
+}
+
+.left-margin {
+  margin-left: 20px;
+}
+
+.font-bold {
+  font-weight: bold;
+}
+
+.ui-g-6+.ui-g-6 {
+  border-right: 1px solid #ccc;
+  margin-left: 10px;
+}
+
+.modstatus {
+  color: rgb(199, 145, 8);
+}
+
+.addstatus {
+  color: green;
+}
+
+.dupstatus {
+  color: blue;
+}
+
+.delstatus {
+  color: red;
+}
+
+.result .ui-g-6.diff {
+  border: 1px solid #ccc;
+  margin: 0px;
+  min-height: 20px;
+  padding-left: 5px;
+}
+
+.result .ui-g-12.diff {
+  border: none;
+}
+
+.filediff {
+  margin-top: 5px;
+}
+
+.result .ui-g-6 {
+  width: 49.5%;
+}
+
+.result .ui-g-6.diff:first-child {
+  margin-right: 10px;
+}
+
+.showdiffer .ui-g-12:first-child .ui-g-6 {
+  border-bottom: none;
+  padding-top: 5px;
+}
+
+.showdiffer .diffresult.ui-g-12:last-child .ui-g-6 {
+  border-top: none;
+  border-bottom: 1px solid #ccc;
+}
+
+.showdiffer .diffresult.ui-g-12 .ui-g-6 {
+  border-top: none;
+  border-bottom: none;
+}
+
+.showdifferxml {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+.showdiffer {
+  margin-top: 10px;
+}
+
+.resultpage {
+  margin: 10px;
+}
+
+.noresult {
+  border: 1px solid #cccccc;
+  padding: 4px;
+  margin-top: 10px;
+}
+
+.well {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.word-wrap {
+  overflow-wrap: break-word;
+  word-break: break-all;
+}
+
+:host /deep/ .ui-dropdown,
+:host /deep/ .ui-inputtext {
+  width: 180px !important;
+}
+
+.ui-g .ui-g-12 .ui-g-2 {
+  margin-left: 12px;
+}
+
+.ui-g .ui-g-12 .ui-g-1 {
+  margin-left: 10px;
+  width: 13%;
+}
+
+.empty-block {
+  border: 3px;
+  background-color: #dadada;
+  height: 16px;
+}
+
+@media only screen and (min-width: 0px) and (max-width: 1130px) {
+  .wd20 {
+    width: 20%;
+  }
+  .wd25 {
+    width: 25%;
+  }
+  .wd55 {
+    width: 55%;
+  }
+}
