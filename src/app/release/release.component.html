@@ -1,23 +1,21 @@
 <div class="ui-g" style="max-width: 1400px">
-  <div class="ui-g-12">
+  <div class="ui-g-12" *ngIf="data !== null">
     <div class="well">
-      <p-tabView >
-      	<p-tabPanel *ngFor="let tab of tabs | keys" [header]="tab.key">
+      <p-tabView *ngFor="let tab of data">
+      	<p-tabPanel [header]="tab.project">
           <div>
             <p class="timestamp">Status as of: {{uiTimestamp | date: 'yyyy-MM-dd hh:mm:ss '}}EDT</p>
             <div class="ui-grid ui-grid-responsive ui-fluid">
-              <p-dataTable class="tableScroll" [value]="tab.value" selectionMode="single" scrollable="true" scrollHeight="285px" expandableRows="true"
+              <p-dataTable class="tableScroll" [value]="tab.environmentDetails" selectionMode="single" scrollable="true" scrollHeight="285px" expandableRows="true"
                 #dt2 (onRowClick)="dt2.toggleRow($event.data)">
-                <p-column field="environment" header="Environment"></p-column>
-                <p-column field="date" header="Deployment Date"></p-column>
-                <p-column field="release" header="Release Version"></p-column>
+                <p-column field="envName" header="Environment Name"></p-column>
+                <p-column field="envIp" header="Environment IP"></p-column>
                 <ng-template let-subTab pTemplate="rowexpansion">
                   <div class="ui-grid ui-grid-responsive ui-fluid">
                     <div class="ui-grid-row">
-                      <p-dataTable [value]="subTab.subTableRows">
-                        <p-column field="server" header="Server"></p-column>
-                        <p-column field="timestamp" header="Deployment Timestamp"></p-column>
-                        <p-column field="release" header="Release Version"></p-column>
+                      <p-dataTable [value]="subTab.serverDetails">
+                        <p-column field="serverName" header="Server Name"></p-column>
+                        <p-column field="serverIp" header="Server IP"></p-column>
                       </p-dataTable>
                     </div>
                   </div>
