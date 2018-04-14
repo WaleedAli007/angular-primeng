@@ -23,11 +23,14 @@ uiTimestamp: Date = new Date();
 
   cols: any[];
   tabs: null;
+  data: null;
   subTableCols: any[];
 
   ngOnInit() {
        this.dataService.getData().then((data:any) => {
-        	this.tabs = data
+            // this.tabs = data
+            this.data = data.results
+            console.log(this.data)
         	this.cdRef.detectChanges()
         }).catch(error => {
         	console.log(error)
