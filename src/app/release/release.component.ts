@@ -165,9 +165,9 @@ uiTimestamp: Date = new Date();
       }
     }
     for (let index = 0; index < table.content.length; index++) {
-      const element = table.content[index];
+      const element:any = table.content[index];
       if (element.hasOwnProperty('table')) {
-        table.content[index].table.body = test
+        element.table.body = test
       }
       
     }
